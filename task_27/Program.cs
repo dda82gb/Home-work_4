@@ -6,7 +6,7 @@
 
 Console.Clear();
 Console.Write("Введите число:");
-int x = int.Parse(Console.ReadLine());
+int x = int.Parse(Console.ReadLine()!)!;
 int sum = 0;
 
 while (x > 0)
